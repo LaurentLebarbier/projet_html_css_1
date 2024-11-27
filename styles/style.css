@@ -1,0 +1,30 @@
+body {
+    background-image:url(../images/maxresdefault1.jpg);
+}
+
+.titre
+{
+    text-align: center; 
+}
+.center
+{
+    text-align: center;
+}
+a
+{
+    display:inline-block;
+}
+.p2
+{
+    text-align: right;
+    text-shadow: -5px 2px 1px RGBa(0,0,160,0.3), 0px 0px 10px RGBa(160,0,0,0.8);;
+}
+img:hover {
+    transform: scaleX(-1);
+  }
+@media screen and (min-width: 1920px)
+{ 
+    #body{ display:none; }
+    
+}
+
